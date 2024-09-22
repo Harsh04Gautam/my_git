@@ -1,6 +1,6 @@
 # My Git
 
-**My Git** is a minimal, Git-like version control system implemented in Rust. This project provides basic functionality similar to Git, allowing users to perform operations such as initializing a repository, adding files, committing changes, viewing the log, and more.
+**My Git** is a minimal, Git-like version control system implemented in Rust. It allows users to perform operations on the "being_tracked" directory, such as initializing a repository, adding files, committing changes, viewing the log, and more.
 
 ## Features
 
@@ -39,7 +39,7 @@ my_git reset <commit-hash>
 
 ## Dependencies
 
-This project uses two dependences for file compression and for generating hash.
+This project uses two dependence for file compression and for generating hash.
 
 - `flate2 = "1.0.33"`
 - `sha2 = "0.10.8"`
