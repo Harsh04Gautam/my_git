@@ -4,7 +4,6 @@ pub mod commit;
 pub mod hash_object;
 pub mod init;
 pub mod log;
-pub mod ls_tree;
 pub mod reset;
 pub mod status;
 pub mod utils;
