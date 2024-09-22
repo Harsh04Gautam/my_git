@@ -21,6 +21,7 @@ To build and run **My Git**, make sure you have [Rust](https://www.rust-lang.org
 ```bash
 git clone <your-repo-url>
 cd my_git
+mkdir being_tracked
 cargo build --release
 cp target/release/my_git ./
 ```
